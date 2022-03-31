@@ -1,0 +1,24 @@
+<div   fxFlexFill    class="bg-b" fxLayout="column" > 
+    <img src="../assets/images/dashboard-pt.png" alt="" class="bg"  >
+    <form fxLayoutAlign="stretch" fxLayout="column" [formGroup]="loginForm" (ngSubmit)="gotopage()" name="loginForm">
+        <mat-form-field appearance="outline" class="form-control" >
+          <div class="icontext">
+          <mat-icon class="maticon">account_circle</mat-icon>
+            <input matInput placeholder="username" required  type="text" formControlName="username" required class="input">
+            </div>  
+          <!--  <mat-error *ngIf="loginForm.get('username')?.errors?.required">
+              Please enter  username
+            </mat-error>-->
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="form-control">
+          <div class="icontext">
+          <mat-icon class="maticon">lock</mat-icon>
+            <input matInput placeholder="password" type="password" required  formControlName="password" class="input" >
+          </div>
+          <!--  <mat-error *ngIf="loginForm.get('password')?.errors?.required">
+              Please enter your new password 
+            </mat-error>-->
+        </mat-form-field>
+        <button mat-raised-button  class="submitbtn">Login</button>
+    </form>
+    </div>

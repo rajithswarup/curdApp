@@ -1,0 +1,51 @@
+
+<p class="title">Vilation summary</p>
+<div class="sample">
+ 
+  <div class="container">
+      <igx-doughnut-chart #chart height="80%" width="80%" 
+      (sliceClick)="chartSliceClickEvent($event)">
+          <igx-ring-series
+              [dataSource]="data"
+              [legend]="legend"
+              legendLabelMemberPath="Label"
+              valueMemberPath="Value"
+              labelMemberPath="Summary"
+              allowSliceSelection="false"
+              LabelsPosition="OutsideEnd"
+              LabelExtent="30"
+              RadiusFactor="0.7"
+              StartAngle=260>
+          </igx-ring-series>
+      </igx-doughnut-chart>
+  </div>
+  <div class="vertical">
+    <!-- <span id="legendTitle">Global Electricity Demand by Energy Use</span>-->
+     <igx-item-legend #legend height="10px" LegendOrientation="horizontal"></igx-item-legend>
+ </div>
+</div>
+<p class="title">Tickets By Status </p>
+<div class="sample">
+ 
+  <div class="container">
+      <igx-doughnut-chart #chart height="80%" width="80%" 
+      (sliceClick)="chartSliceClickEvent($event)">
+          <igx-ring-series
+              [dataSource]="data"
+              [legend]="legend"
+              legendLabelMemberPath="Label"
+              valueMemberPath="Value"
+              labelMemberPath="Summary"
+              allowSliceSelection="false"
+              LabelsPosition="OutsideEnd"
+              LabelExtent="30"
+              RadiusFactor="0.7"
+              StartAngle=260>
+          </igx-ring-series>
+      </igx-doughnut-chart>
+  </div>
+  <div class="vertical">
+    <!-- <span id="legendTitle">Global Electricity Demand by Energy Use</span>-->
+     <igx-item-legend #legend height="10px" LegendOrientation="horizontal"></igx-item-legend>
+ </div>
+</div>

@@ -1,0 +1,40 @@
+.title
+{
+    text-align: center;
+    color: firebrick;
+    font-size: 18px;
+}
+.title1
+{
+    text-align: left;
+    color: firebrick;
+    font-size: 18px;
+}.title2
+{    text-align: right;
+    color: firebrick;
+    font-size: 18px;
+    /* float: right; */
+    text-align: right;
+    margin-left: auto;
+}
+.div1
+{
+    
+    box-sizing: border-box;
+
+margin-left: 5%;
+margin-right: 20px;
+display: flex;
+border: solid #3b3d3f 2px;
+padding: 5px;
+}.black
+{
+    background: #290a72;
+    color: white;
+}.table
+{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}

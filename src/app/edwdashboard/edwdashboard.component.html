@@ -1,0 +1,21 @@
+<p class="title">NetWork Activity</p>
+<div class="div1">
+    <p class="title1">CDR Feed REjhjhjhv</p>
+    <p class="title2">1D</p>
+
+</div>
+<table mdbTable striped="true"  class="table">
+    <thead class="black">
+      <tr>
+        <th *ngFor="let head of displayedColoums" scope="col">{{head}} </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr mdbTableCol *ngFor="let el of tableData.data">
+        <th scope="row">{{el.name}}</th>
+        <td>25 august 2020</td>
+        <td>-24</td>
+        <td>{{el.status}}</td>
+      </tr>
+    </tbody>
+  </table>

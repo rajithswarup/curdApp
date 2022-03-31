@@ -1,0 +1,21 @@
+<button class="B2B">B2B</button>
+<button class="B2C">B2C</button>
+<button class="others">others</button>
+
+<div *ngFor="let c of info.data">
+   
+<mat-card class="mat_card_id" >
+    <mat-card-header>
+        <p class="title">{{c.title}}</p>
+        </mat-card-header>
+        <mat-card-header class="mat_headers">
+        <mat-card-subtitle class="subtitle_id">624</mat-card-subtitle>
+        <mat-card-title class="title_id">767</mat-card-title>
+        </mat-card-header>
+        <button mat-button class="percentage">98%</button>
+        <mat-card-actions>
+            <button mat-button class="last_update">Last Update</button>   
+            <button mat-button class="date">8/7/2021</button>
+          </mat-card-actions>
+</mat-card>
+</div>

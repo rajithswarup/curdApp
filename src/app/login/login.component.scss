@@ -1,0 +1,80 @@
+.submitbtn
+{
+    background-color:  #ff375e;
+    color:white;
+    font-size: small;
+    left: 10%;
+ margin-right: 20%;
+    
+}
+.form-control
+{
+ left: 5%;
+ margin-right: 10%;
+ border-radius: 2px; 
+}
+.outline
+{
+    border: 1px solid #b9119d;
+}
+.maticon
+{
+ background-repeat: no-repeat;
+ fill: currentColor;
+ height: 24px;
+ width: 24px;
+ display: flex;
+}
+.input
+{
+    text-align: center;
+    box-sizing: border-box;
+}
+.bg
+{
+     display: list-item;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    min-width: 60%;
+    min-height: 60%;
+    height: 50%;
+
+}.bg-b
+{
+    
+    height: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    place-content: center flex-start;
+    /* align-items: center; */
+     flex-direction: column; 
+    box-sizing: border-box;
+    display: flex;
+}
+.icontext
+{
+    display: flex;
+}
+
+/* Border */
+:host ::ng-deep{
+.mat-form-field-appearance-outline .mat-form-field-outline {
+    color: #4f008c!important;
+    opacity: 0.5!important;
+    border-radius: 10px !important;
+    border-width: 2px !important;
+  }
+  /* Font color */
+  input.mat-input-element {
+    color: rgb(22, 21, 21);
+  }
+  /* .mat-form-field-appearance-outline .mat-form-field-outline-start {
+    border-radius: 10px !important;
+    border-width: 1px !important;  
+  }.mat-form-field-appearance-outline .mat-form-field-outline-end {
+    border-radius: 10px !important;
+    border-width: 2px !important;
+  } */
+}
